@@ -16,9 +16,9 @@
     <header>
       <div class="header">
         <input type="checkbox" id="open-menu" class="header__checkbox" />
-        <label for="open-menu" class="header__open-nav-button" role="button"
-          ><i class="bi bi-list"></i
-        ></label>
+        <label for="open-menu" class="header__open-nav-button" role="button">
+          <i class="bi bi-list"></i>
+        </label>
 
         <div class="header__logo-container">
           <img
@@ -99,27 +99,82 @@
       </div>
     </main>
     <section class="portfolio">
-        <h2 class="portfolio__title">PORTFOLIO</h2>
-        <div class="portfolio__project-container">
-            <div class="portfolio__project">
-                <h2 class="portfolio__project-name">PROJECT</h2>
-            </div>
-            <div class="portfolio__project">
-                <h2 class="portfolio__project-name">PROJECT</h2>
-            </div>
-            <div class="portfolio__project">
-                <h2 class="portfolio__project-name">PROJECT</h2>
-            </div>
-            <div class="portfolio__project">
-                <h2 class="portfolio__project-name">PROJECT</h2>
-            </div>
-            <div class="portfolio__project">
-                <h2 class="portfolio__project-name">PROJECT</h2>
-            </div>
-            <div class="portfolio__project">
-                <h2 class="portfolio__project-name">PROJECT</h2>
-            </div>
+      <h2 class="portfolio__title">PORTFOLIO</h2>
+      <div class="portfolio__project-container">
+        <div class="portfolio__project">
+          <h2 class="portfolio__project-name">PROJECT</h2>
         </div>
+        <div class="portfolio__project">
+          <h2 class="portfolio__project-name">PROJECT</h2>
+        </div>
+        <div class="portfolio__project">
+          <h2 class="portfolio__project-name">PROJECT</h2>
+        </div>
+        <div class="portfolio__project">
+          <h2 class="portfolio__project-name">PROJECT</h2>
+        </div>
+        <div class="portfolio__project">
+          <h2 class="portfolio__project-name">PROJECT</h2>
+        </div>
+        <div class="portfolio__project">
+          <h2 class="portfolio__project-name">PROJECT</h2>
+        </div>
+      </div>
     </section>
+    <div class="formulario">
+      <h2 class="formulario__contacto">Contacto</h2>
+      <form action="" class="formulario__form">
+        <fieldset class="fieldset">
+          <legend class="legend">Información Personal</legend>
+          <label for="username">Nombre</label>
+          <input type="text" name="username" />
+          <label for="username">Email</label>
+          <input type="email" />
+          <label for="ciudad">Ciudad</label>
+          <input list="ciudades" name="ciudad" />
+          <datalist id="ciudades">
+            <option value="Madrid"></option>
+            <option value="Málaga"></option>
+            <option value="Sevilla"></option>
+            <option value="Valencia"></option>
+          </datalist>
+          <input type="color" />
+        </fieldset>
+
+        <fieldset class="fieldset">
+          <legend class="legend">Mensaje</legend>
+          <label for="username">Fecha</label>
+          <input type="number" />
+          <label for="username">Mensaje</label>
+          <textarea name="" id="" class="textarea"></textarea>
+          <label for="username">Adjunta CV</label>
+          <input type="file" />
+          <input type="submit" class="form__button" value="Enviar Formulario" />
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footer__logo-container">
+          <img
+            src="imagenes/logoJ.svg"
+            alt="Jorge Crespo de Troya"
+            class="header__logo logo--desktop"
+          />
+          <img
+            src="imagenes/logomobile.svg"
+            alt="Jorge Crespo de Troya"
+            class="header__logo logo--mobile"
+          />
+        </div>
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item"><a href="">AVISO LEGAL</a></li>
+            <li class="footer__nav-item"><a href="">POLITICA DE PRIVACIDAD</a></li>
+            <li class="footer__nav-item"><a href="">COOKIES</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
