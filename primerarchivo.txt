@@ -1,2 +1,0 @@
-Texto original sin problemas
-Texto cambiado que provoca el conficto
