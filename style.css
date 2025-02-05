@@ -159,7 +159,8 @@ header{
 
 .profile__img{
     max-width: 100%;
-    width: 500px;
+    width: 100vw;
+    height: 40vh;
 }
 
 .profile__description p{
@@ -251,6 +252,7 @@ h1{
     .profile__img{
         min-height: 100%;
         min-width: 100%;
+        width: 40vw;
         border-radius: 20px 0px 0px 25px;
     }
     .profile__skill span{
@@ -323,3 +325,108 @@ h1{
 }
 
 /*PORTFOLIO END*/
+
+/*FORMULARIO STATIC*/
+
+.formulario{
+    width: 100vw;
+    margin: auto;
+}
+
+.formulario__contacto{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.formulario__form{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100dvh;
+    background-color: #18233f;
+    padding: 20px;
+    margin-bottom: 150px;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+
+input{
+    font-size: 30px;
+    width: 75vw;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.fieldset{
+    border: 1px solid #4488ee;
+    color: #e2eaff;
+    text-align: center;
+}
+
+.legend{
+    color: #e2eaff;
+    font-size: 35px;
+}
+
+label{
+    font-size: 30px;
+    text-shadow: 0px 0px 4px #4488ee;
+    color: #e2eaff;
+}
+.textarea{
+    width: 60dvw;
+    font-size: 25px;
+}
+.form__button{
+    width: 80dvw;
+    margin-top: 25px;
+    height: 7dvh;
+    background-color:#4488ee;
+    color: #e2eaff;
+    font-size: 2rem;
+}
+
+/*FORMULARIO QUERIES*/
+@media screen and (min-width:1200px) {
+    .formulario{
+        width: 50vw;
+    }
+  
+    .formulario__form{
+        width: 50vw;
+        height: 100%;
+        padding: 50px;
+        margin-top: 5%;
+    }
+    
+    input{
+        font-size: 16px;
+        width: 100%;
+        height: 40px;
+    }
+  
+    .legend{
+        font-size: 25px;
+    }
+    
+    label{
+        font-size: 20px;
+    }
+    .textarea{
+        width: 40dvw;
+        font-size: 16px;
+    }
+    .form__button{
+        width: 20dvw;
+        height: 7dvh;
+        background-color:#4488ee;
+        color: #e2eaff;
+        font-size: 1.2rem;
+    }
+}
+/*FORMULARIO END*/
